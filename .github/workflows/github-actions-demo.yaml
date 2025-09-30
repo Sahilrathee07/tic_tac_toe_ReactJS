@@ -23,4 +23,5 @@ jobs:
         if: success()   # only runs if Snyk passes
         run: |
           echo "Deploying to AWS..."
+          echo "Deploying to AWS...1"
  
